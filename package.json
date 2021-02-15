@@ -13,6 +13,8 @@
    "categories": [
       "Themes"
    ],
+   "publisher": "0x706b",
+   "icon": "./icon.png",
    "contributes": {
       "themes": [
          {
