@@ -1,39 +1,40 @@
 {
-	"name": "monotone-vscode-theme",
-	"displayName": "monotone",
-	"description": "An aesthetically-pleasing utilitarian theme, forked from Lokaltog/vim-monotone",
-	"version": "0.0.2",
-	"engines": {
-		"vscode": "^1.44.0"
-	},
-	"scripts": {
-		"watch": "tsnd --respawn ./src/monotone.ts",
-		"build": "tsnd ./src/monotone.ts"
-	},
-	"categories": [
-		"Themes"
-	],
-	"publisher": "0x706b-extensions",
-	"icon": "icon.png",
-	"contributes": {
-		"themes": [
-			{
-				"label": "monotone",
-				"uiTheme": "vs-dark",
-				"path": "./themes/monotone-color-theme.json"
-			}
-		]
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@types/node": "^13.13.0",
-		"@types/vscode": "^1.44.0",
-		"ts-node-dev": "^1.0.0-pre.44",
-		"typescript": "^3.8.3"
-	},
-	"__metadata": {
-		"id": "faf7e505-caf6-41a5-8f46-cffece3391dd",
-		"publisherDisplayName": "0x706b",
-		"publisherId": "2abc8913-5b3a-4748-848d-b56e00d62f15"
-	}
+  "name": "monotone-vscode-theme",
+  "displayName": "monotone",
+  "description": "An aesthetically-pleasing utilitarian theme, forked from Lokaltog/vim-monotone",
+  "version": "0.0.2",
+  "repository": "https://github.com/0x706b/monotone-vscode-theme",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "scripts": {
+    "watch": "tsnd --respawn ./src/monotone.ts",
+    "build": "tsnd ./src/monotone.ts"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "0x706b-extensions",
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "monotone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monotone-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.13.0",
+    "@types/vscode": "^1.44.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "__metadata": {
+    "id": "faf7e505-caf6-41a5-8f46-cffece3391dd",
+    "publisherDisplayName": "0x706b",
+    "publisherId": "2abc8913-5b3a-4748-848d-b56e00d62f15"
+  }
 }
