@@ -2,7 +2,7 @@
   "name": "monotone-vscode-theme",
   "displayName": "monotone",
   "description": "An aesthetically-pleasing utilitarian theme, forked from Lokaltog/vim-monotone",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/0x706b/monotone-vscode-theme",
   "engines": {
     "vscode": "^1.44.0"
