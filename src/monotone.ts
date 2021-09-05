@@ -554,7 +554,8 @@ const functorTheme = {
             "keyword.other.haskell",
             "keyword.control.as",
             "keyword.control.conditional",
-            "storage.type.function.arrow"
+            "storage.type.function.arrow",
+            "entity.name.tag"
          ],
          settings: {
             foreground: normal,
@@ -582,7 +583,8 @@ const functorTheme = {
          scope: [
             "meta.type",
             "meta.return.type",
-            "entity.name.type"
+            "entity.name.type",
+            "support.class.component"
          ],
          settings: {
             foreground: em4,
